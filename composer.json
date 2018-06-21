@@ -1,0 +1,23 @@
+{
+    "name": "zhujinkui/tp5-alidayu",
+    "description": "This is based on the integration of ThinkPHP5.1 framework Ali more than SMS business.",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "zhujinkui",
+            "email": "developer@zhujinkui.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "files": ["src/tools/tool.php"],
+        "psr-4": {
+            "think\\": "src/"
+        }
+    }
+}
+
